@@ -1,0 +1,143 @@
+.Home {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: min(1400px, 85vw);
+  margin: 50px 0;
+  font-family: 'Volkhov', serif;
+  margin-bottom: 300px;
+
+}
+
+.nameHome {
+  width: 470px;
+  display: flex;
+  justify-content: end;
+}
+
+.name {
+  font-size: 7.6rem;
+  color: var(--dark-green);
+  z-index: 9999;
+  text-shadow: var(--light-green) 5px 0 10px;
+}
+
+.devNameHome {
+  color: rgb(108, 173, 152);
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  width: 700px;
+  display: flex;
+  justify-content: end;
+  z-index: 9999;
+}
+
+.photoPerfil {
+  position: absolute;
+  width: 400px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 15px;
+  transform: rotate(10deg);
+  right: 2%;
+  bottom: -50%;
+}
+
+@media (max-width: 1350px){
+  .photoPerfil {
+    bottom: -80%;
+  }
+  .nameHome {
+    width: 400px;
+  }
+  .name {
+    font-size: 7rem;
+  }
+  .devNameHome {
+    font-size: 2.5rem;
+    width: 580px;
+  }
+  .Home {
+    margin-bottom: 350px;
+  }
+}
+
+@media (max-width: 1150px){
+  .photoPerfil {
+    top: 130%;
+    right: calc(50% - 250px);
+    width: 500px;
+  }
+  .nameHome {
+    width: 400px;
+  }
+  .name {
+    font-size: 7rem;
+  }
+  .devNameHome {
+    font-size: 2.5rem;
+    width: 580px;
+  }
+  .Home {
+    margin-bottom: 850px;
+  }
+}
+
+@media (max-width: 800px){
+  .nameHome {
+    width: 350px;
+  }
+  .name {
+    font-size: 6rem;
+  }
+  .devNameHome {
+    font-size: 1.8rem;
+    width: 430px;
+  }
+  .photoPerfil {
+    right: calc(50% - 33vw);
+    width: 66vw;
+  }
+  .Home {
+    margin-bottom: 110vw;
+  }
+}
+
+@media (max-width: 680px){
+  .nameHome {
+    width: 300px;
+  }
+  .name {
+    font-size: 5rem;
+  }
+  .devNameHome {
+    font-size: 1.6rem;
+    width: 400px;
+  }
+}
+
+@media (max-width: 570px){
+  .nameHome {
+    width: 230px;
+  }
+  .name {
+    font-size: 4rem;
+  }
+  .devNameHome {
+    font-size: 1.4rem;
+    width: 330px;
+  }
+}
+@media (max-width: 450px){
+  .nameHome {
+    width: 200px;
+  }
+  .name {
+    font-size: 3.5rem;
+  }
+  .devNameHome {
+    font-size: 1.4rem;
+    width: 310px;
+  }
+}
