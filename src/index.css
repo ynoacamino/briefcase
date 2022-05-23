@@ -11,6 +11,7 @@ body {
   --dark-green: #1B494B;
   --light-blue: #2596be;
   --dark-blue: #084a86;
+  overflow-x: hidden;
 }
 
 code {
@@ -42,4 +43,12 @@ code {
 }
 .underline:hover{
   cursor: pointer;
+}
+.degraded {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 400px;
+  background: linear-gradient(transparent, #161616)
 }
