@@ -1,0 +1,19 @@
+.vanta {
+  height: 120vh;
+}
+
+.effect3d {
+  min-height: 100vh;
+  width: 99vw;
+  position: relative;
+}
+.cls-1{
+  stroke:#000;stroke-miterlimit:10;
+}
+
+#Vectores {
+  position: absolute;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
