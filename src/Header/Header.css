@@ -4,7 +4,7 @@ header {
   background-color: var(--light-green);
   display: flex;
   justify-content: space-between;
-  margin: 20px auto;
+  margin: 20px auto 60px auto;
 } 
 
 .logoHeader {
