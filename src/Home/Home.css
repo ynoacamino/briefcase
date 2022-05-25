@@ -16,7 +16,7 @@
 }
 
 .name {
-  font-size: 7.6rem;
+  font-size: 9rem;
   color: var(--dark-green);
   z-index: 9999;
   text-shadow: var(--light-green) 5px 0 10px;
@@ -139,5 +139,8 @@
   .devNameHome {
     font-size: 1.4rem;
     width: 310px;
+  }
+  .Home {
+    margin-top: 0;
   }
 }
