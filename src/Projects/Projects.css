@@ -23,6 +23,9 @@
   justify-content: center;
   row-gap: 100px;
 }
+.reverse {
+  flex-direction: row-reverse;
+}
 
 .imgProject {
   width: 700px;
