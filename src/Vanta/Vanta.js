@@ -21,8 +21,8 @@ const Vanta = (props) => {
           minWidth: 200.00,
           scale: 1.00,
           scaleMobile: 1.00,
-          color: 0xeddbe1,
-          backgroundColor: 0x161616,
+          color: 0x8d8d8d,
+          backgroundColor: 0x1d1d1b,
           showDots: false,
           THREE
         })
@@ -34,9 +34,12 @@ const Vanta = (props) => {
   }, [vantaEffect])
   return (
     <div className='effect3d'>
+      <div className='degraded1'></div>
       <main className='vanta' ref={vantaRef}>
       </main>
-      <div className='degraded'></div>
+      <div className='degraded2'></div>
+      <span className='titleSkills'>Skills</span>
+  
     </div>
   )
 }
