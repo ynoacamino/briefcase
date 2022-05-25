@@ -1,0 +1,149 @@
+.Projects {
+  background-color: #1d1d1b;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 140px;
+}
+
+.titleProjects {
+  font-size: 10rem;
+  font-family: 'Volkhov', serif;
+  color: rgb(219, 219, 219);
+}
+
+.projectBox {
+  border-radius: 15px;
+  border: solid rgb(219, 219, 219) 3px;
+  padding: 40px;
+  display: flex;
+  width: min(1400px, 85vw);
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 100px;
+}
+
+.imgProject {
+  width: 700px;
+  border-radius: 10px;
+  
+}
+
+.leftProjectBox {
+  color: rgb(219, 219, 219);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 700px;
+}
+
+.rigthProjectBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nameProject {
+  font-size: 2.6rem;
+  font-weight: bold;
+}
+.descriptionProject {
+  width: 75%;
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+.btnBox {
+  display: flex;
+  gap: 20px;
+}
+
+.btnProjeact {
+  background-color: transparent;
+  border-radius: 0;
+  border: solid rgb(219, 219, 219) 4px;
+  padding: 15px 25px  ;
+}
+
+.link {
+  text-decoration: none;
+  color: rgb(219, 219, 219);
+  font-size: 1.6rem;
+}
+
+@media (max-width: 1646px){
+  .imgProject {
+    width: 100%;
+    border-radius: 10px;
+  }
+  .rigthProjectBox {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  .leftProjectBox {
+    margin-top: 40px;
+  }
+  .projectBox {
+    padding: 15px;
+    width: 75vw;
+  }
+}
+
+@media (max-width: 1000px){
+  .titleProjects {
+    font-size: 7rem;
+  }
+}
+
+@media (max-width: 700px){
+  .titleProjects {
+    font-size: 6rem;
+  }
+}
+
+@media (max-width: 570px){
+
+}
+@media (max-width: 450px){
+  .projectBox {
+    padding: 15px;
+    width: 75vw;
+    row-gap: 70px;
+  }
+  .titleProjects {
+    font-size: 4.5rem;
+  }
+  .Projects {
+    gap: 70px;
+  }
+  .nameProject {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .descriptionProject {
+    width: 75%;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: rgb(219, 219, 219);
+    font-size: 1rem;
+  }
+  .btnProjeact {
+    padding: 10px 20px  ;
+  }
+  .imgProject {
+    width: 110%;
+  }
+  .rigthProjectBox {
+    margin-bottom: 20px;
+  }
+}
