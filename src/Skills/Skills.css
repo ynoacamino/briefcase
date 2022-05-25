@@ -1,0 +1,58 @@
+.Skills {
+  background-color: #1d1d1b;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 80px;
+}
+
+.skill {
+  border-radius: 20px;
+  border: solid rgb(218, 218, 218) 4px; 
+  padding: 25px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 270px;
+  justify-content: space-around;
+  position: relative;
+  align-items:flex-start;
+}
+
+.skillBox {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  color: rgb(218, 218, 218);
+  gap: 10px;
+  align-items: center;
+  transition: all 150ms;
+}
+
+.skillBox:hover {
+  transform: scale(1.08);
+  cursor: pointer;
+}
+
+.skillIco {
+  height: 42px;
+}
+
+.skillGroup {
+  font-family: 'Roboto', serif;
+  color: rgb(218, 218, 218);
+  font-size: 1.5rem;
+  font-weight: bold;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  left: calc(50% - 100px);
+  top: -50px;
+}
+
+.mongoose{
+  width: 80px;
+  object-fit: cover;
+}
