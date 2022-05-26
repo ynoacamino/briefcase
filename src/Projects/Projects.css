@@ -52,6 +52,10 @@
 .nameProject {
   font-size: 2.6rem;
   font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 .descriptionProject {
   width: 75%;
@@ -128,6 +132,7 @@
   .nameProject {
     font-size: 2rem;
     font-weight: bold;
+    
   }
   .descriptionProject {
     width: 75%;
