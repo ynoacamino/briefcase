@@ -6,6 +6,7 @@ import Vanta from '../Vanta/Vanta';
 import Aboutme from '../Aboutme/Aboutme';
 import Skills from '../Skills/Skills';
 import Projects from '../Projects/Projects';
+import Certificados from '../Certificados/Certificados';
 
 function App() {
   useEffect(() => {
@@ -34,6 +35,7 @@ function App() {
       <Projects/>
       <div className='fondoBlack sinShadow'></div>
       <div className='fondoBlack'></div>
+      <Certificados/>
     </div>
   );
 }
