@@ -36,12 +36,12 @@
 .photoPerfil {
   position: absolute;
   width: 400px;
-  height: auto;
   object-fit: cover;
   border-radius: 15px;
   transform: rotate(10deg);
   right: 2%;
   bottom: -50%;
+  box-shadow: var(--light-green) 0px 0px 0 30px ;
 }
 
 @media (max-width: 1350px){
