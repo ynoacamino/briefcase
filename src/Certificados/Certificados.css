@@ -10,7 +10,7 @@
 .boxCertificado{
   display: flex;
   flex-direction: column;
-  width: min(1400px, 85vw);
+  width: min(800px, 85vw);
   padding: 30px;
   border-radius: 15px;
   border: solid rgb(219, 219, 219) 3px;
@@ -24,7 +24,7 @@
 }
 
 .imgCertificado {
-  width: min(800px, 60%);
+  width: min(800px, 70%);
   border-radius: 15px;
   margin-top: 25px;
 }
