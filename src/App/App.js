@@ -1,14 +1,19 @@
 import './App.css';
 import Header from '../Header/Header';
 import Home from '../Home/Home';
-import {useEffect} from 'react';
 import Vanta from '../Vanta/Vanta';
 import Aboutme from '../Aboutme/Aboutme';
 import Skills from '../Skills/Skills';
 import Projects from '../Projects/Projects';
 import Certificados from '../Certificados/Certificados';
+import { useEffect, useState } from 'react';
+import { useInView } from 'react-intersection-observer';
 
 function App() {
+  const {ref, inView} = useInView({
+    threshold: 1
+  });
+  
   useEffect(() => {
     const threeScript = document.createElement('script');
     threeScript.setAttribute("id", "threeScript")
