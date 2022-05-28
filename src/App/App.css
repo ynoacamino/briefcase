@@ -36,3 +36,10 @@
     height: 150px;
   }
 }
+
+.line {
+  width: min(1200px, 80vw);
+  height: 1px;
+  border-top: 1px solid white;
+  
+}
