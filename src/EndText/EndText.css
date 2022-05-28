@@ -32,3 +32,27 @@
     border-color: transparent;
   }
 }
+
+@media (max-width: 1280px){
+  .writeMachine {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 1000px){
+  .writeMachine {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 830px){
+  .writeMachine {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 640px){
+  .writeMachine {
+    font-size: 1.5rem;
+  }
+}
