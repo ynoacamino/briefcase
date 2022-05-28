@@ -9,22 +9,25 @@
 
 .boxCertificado{
   display: flex;
-  flex-direction: column;
+  flex-direction: row-reverse;
   width: min(800px, 85vw);
   padding: 30px;
   border-radius: 15px;
   border: solid rgb(219, 219, 219) 3px;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .titleCertificados {
   font-size: 10rem;
   font-family: 'Volkhov', serif;
   color: rgb(219, 219, 219);
+
 }
 
 .imgCertificado {
-  width: min(800px, 70%);
+  width: 400px;
   border-radius: 15px;
   margin-top: 25px;
 }
@@ -34,6 +37,8 @@
   font-weight: bold;
   margin: 30px;
   text-align: center;
+
+  flex: 1;
 }
 
 @media (max-width: 1646px){
@@ -58,7 +63,8 @@
     font-size: 5rem;
   }
   .nameCertificado {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
+    min-width: 300px;
   }
 }
 

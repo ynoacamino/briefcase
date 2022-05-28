@@ -7,12 +7,10 @@ import Skills from '../Skills/Skills';
 import Projects from '../Projects/Projects';
 import Certificados from '../Certificados/Certificados';
 import { useEffect, useState } from 'react';
-import { useInView } from 'react-intersection-observer';
+import { InView, useInView } from 'react-intersection-observer';
+import Endtext from '../EndText/EndText';
 
 function App() {
-  const {ref, inView} = useInView({
-    threshold: 1
-  });
   
   useEffect(() => {
     const threeScript = document.createElement('script');
@@ -25,6 +23,7 @@ function App() {
       }
     }
   }, [])
+
   return (
     <div className="App">
       <Header/>
@@ -41,6 +40,16 @@ function App() {
       <div className='fondoBlack sinShadow'></div>
       <div className='fondoBlack'></div>
       <Certificados/>
+      <div className='fondoBlack sinShadow'></div>
+      <div className='fondoBlack sinShadow'></div>
+      <div className='fondoBlack sinShadow'></div>
+      <div className='fondoBlack sinShadow'>
+        <Endtext/>
+      </div>
+      <div className='fondoBlack sinShadow'></div>
+      <div className='fondoBlack sinShadow'></div>
+      <div className='fondoBlack sinShadow'></div>
+      <div className='fondoBlack sinShadow'></div>
     </div>
   );
 }
