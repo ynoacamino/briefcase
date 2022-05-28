@@ -78,7 +78,7 @@ const Projects = () => {
   ]
   return (
     <div className='Projects'>
-      <span className='titleProjects'>Projects</span>
+      <span className='titleProjects' id='projects'>Projects</span>
       {works.map((x) => {
         return <CardProject key={x.llave} name={x.name} description={x.description} github={x.github} preview={x.preview} img={x.img}/>
       })}
