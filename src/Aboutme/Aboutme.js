@@ -41,7 +41,8 @@ const Aboutme = () => {
       <motion.div animate={popUp}
       variants={pop} className='leftAboutme'> 
         <span ref={ref}
-        className='titleAbout'>Sobre mi</span>
+        className='titleAbout'
+        id='sobre-mi'>Sobre mi</span>
       </motion.div>
       <div className='rigthAboutme'>
         Can an opera singer teach themself to program? This portfolio website can be your answer.
