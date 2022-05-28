@@ -1,0 +1,75 @@
+.Contactme {
+  width: 100vw;
+  background-color: #1d1d1b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(218, 218, 218);
+  gap: 40px;
+  overflow-x: hidden;
+}
+
+.titleContactme {
+  font-size: 8rem;
+  font-family: 'Volkhov', serif;
+}
+.linkContactme {
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(218, 218, 218);
+}
+
+.linkContactme:hover {
+  text-decoration: underline;
+}
+
+.hiddenBox {
+  width: 850px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  padding-right: 80px;
+}
+
+@media (max-width: 1200px){
+  .titleContactme {
+    font-size: 6rem;
+  }
+  .linkContactme {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 930px){
+  .titleContactme {
+    font-size: 5rem;
+  }
+  .linkContactme {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 700px){
+  .titleContactme {
+    font-size: 4rem;
+  }
+  .linkContactme {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 600px){
+  .titleContactme {
+    font-size: 3rem;
+  }
+  .linkContactme {
+    font-size: 1.5rem;
+  }
+  .icoLink {
+    width: 18px;
+    margin-left: 10px;
+  }
+}
