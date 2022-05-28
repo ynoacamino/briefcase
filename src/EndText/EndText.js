@@ -9,9 +9,7 @@ const Endtext = () => {
 
   useEffect(() => {
     if(inView) {
-      console.log('se puede ver');
     }
-    console.log(inView)
   }, [inView])
 
   return (
