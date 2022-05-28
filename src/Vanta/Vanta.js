@@ -34,7 +34,7 @@ const Vanta = (props) => {
   }, [vantaEffect])
   return (
     <div className='effect3d'>
-      <div className='degraded1'></div>
+      <div className='degraded1' id='skills'></div>
       <main className='vanta' ref={vantaRef}>
       </main>
       <div className='degraded2'></div>
