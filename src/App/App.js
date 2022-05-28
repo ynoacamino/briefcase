@@ -8,7 +8,9 @@ import Projects from '../Projects/Projects';
 import Certificados from '../Certificados/Certificados';
 import { useEffect, useState } from 'react';
 import { InView, useInView } from 'react-intersection-observer';
+import Contactme from '../Contactme/Contactme';
 import Endtext from '../EndText/EndText';
+import ViewCode from '../ViewCode/ViewCode';
 
 function App() {
   
@@ -42,14 +44,17 @@ function App() {
       <Certificados/>
       <div className='fondoBlack sinShadow'></div>
       <div className='fondoBlack sinShadow'></div>
-      <div className='fondoBlack sinShadow'></div>
+      
       <div className='fondoBlack sinShadow'>
         <Endtext/>
       </div>
       <div className='fondoBlack sinShadow'></div>
       <div className='fondoBlack sinShadow'></div>
-      <div className='fondoBlack sinShadow'></div>
-      <div className='fondoBlack sinShadow'></div>
+      <div className='fondoBlack sinShadow'><div className='line'/></div>
+      <Contactme/>
+      <div className='fondoBlack sinShadow'><div className='line'/></div>
+      <ViewCode/>   
+      <div className='fondoBlack sinShadow' style={{height: 60}}></div>
     </div>
   );
 }
