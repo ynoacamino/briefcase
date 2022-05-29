@@ -45,10 +45,8 @@ const Aboutme = () => {
         id='sobre-mi'>Sobre mi</span>
       </motion.div>
       <div className='rigthAboutme'>
-        Can an opera singer teach themself to program? This portfolio website can be your answer.
-        After performing on 3 different continents, winning several vocal competitions, and having met my spouse in an Opera festival, I felt like I had accomplished what I needed to in opera. Also, there were many itches that opera simply couldn't scratch. Then I discovered programming.
-        Web development allows me to express my creativity in a more satisfying way, to create with clear structure and to focus in on details in a way I've never been able to do before.
-        After over a year of study, I am ready to contribute to the world in this new way, and I'm looking forward to bringing the best traits of a creative developer and focused opera singer to the table. Over my career I have learned how to get things done, keep my cool in dire moments (oh, those stage mishaps the public never even realised happened...), work with lots of different types of people, and take initiative to pick up slack when needed. That plus my ability to learn quickly has helped me to become a creative but also grounded developer (and possibly the only person who feels as good about a standing ovation as about getting that bug out, finally!). I hope you enjoy my projects. Now, cue the curtains!
+         Antes conocer el desarrollo web estaba perdido en lo que quería ser y  trabajar de aquí a unos 15 años, ahora no dudo un poco en decir que lo que me apasiona es el poder resolver problemas y llegar a una solución, me encanta aprender por mi mismo, plantearme problemas y no descansar hasta conseguir una solución. "Me apasiona  el desarrollo web"
+Estudie de la mano de TheOdinProject, esta web no solo me entregaba información lista para aprender sino que me entregaba un problema y "me lanzaba a la piscina" por así decirlo, quería que yo pudiera encontrar la respuesta y desarrollara mi habilidad  para buscar entre la documentación la información. Han pasado 6 meses desde que comencé a estudiar, en el momento que escribo, y siento que ya estoy listo para contribuir al mundo de esta manera, estoy ansioso para poder demostrar de lo que soy capas. Espero que disfrutes mis proyectos.
       </div>
       <motion.img
       style={{ originX: 0.7, originY: 0.7 }}
