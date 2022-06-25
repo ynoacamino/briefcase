@@ -44,6 +44,7 @@ const Home = (props) => {
         animate={{
           y: [-500, 0, -160, 0, -40, 0],
           x: [-150, -50, 0]
+
         }}
         className= 'lastNameHome name'>Noa Camino</motion.span>
       <span className= 'devNameHome'>Full stack javascript developer</span>
