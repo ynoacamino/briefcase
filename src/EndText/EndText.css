@@ -20,7 +20,9 @@
   animation: typing 4s steps(29), blink 0.5s infinite step-end alternate;
   overflow: hidden;
 }
-
+.commite {
+  display: flex;
+}
 @keyframes typing {
   from {
     width: 0;
