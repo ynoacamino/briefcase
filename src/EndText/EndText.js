@@ -12,6 +12,7 @@ const Endtext = () => {
     }
   }, [inView])
 
+  
   return (
     <span ref={ref} className={'default ' + (inView ? 'writeMachine' : 'vacio')}>Ya estamos llegando al final!</span>
   )
