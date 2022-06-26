@@ -1,5 +1,4 @@
 import POINTS from 'vanta/dist/vanta.net.min';
-import CLOUD2 from 'vanta/dist/vanta.clouds2.min'
 import RINGS from 'vanta/dist/vanta.rings.min'
 import { useEffect, useRef, useState} from 'react';
 import * as THREE from 'three';
