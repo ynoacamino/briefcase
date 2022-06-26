@@ -1,5 +1,4 @@
 import POINTS from 'vanta/dist/vanta.net.min';
-import RINGS from 'vanta/dist/vanta.rings.min'
 import { useEffect, useRef, useState} from 'react';
 import * as THREE from 'three';
 import './Vanta.css'
