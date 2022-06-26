@@ -1,5 +1,5 @@
 import './Home.css';
-import { motion, useAnimation } from 'framer-motion';
+import { motion } from 'framer-motion';
 
 const Home = (props) => {
   return (
