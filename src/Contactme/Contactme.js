@@ -1,6 +1,6 @@
 import './Contactme.css';
 import { useEffect } from 'react';
-import { InView, useInView } from 'react-intersection-observer';
+import { useInView } from 'react-intersection-observer';
 import { motion, useAnimation } from 'framer-motion';
 
 const Contactme = () => {
